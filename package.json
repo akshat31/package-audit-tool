@@ -1,0 +1,33 @@
+{
+  "name": "npm-package-audit-tool",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "CLI tool to audit your npm dependencies for security, size, and maintenance health",
+  "bin": {
+    "package-audit": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "npm",
+    "audit",
+    "cli",
+    "dependency-checker",
+    "dev-tool"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "ora": "^6.3.1",
+    "semver": "^7.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "tsup": "^7.2.0",
+    "typescript": "^5.3.3"
+  }
+}
