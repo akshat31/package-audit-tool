@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-audit-tool",
+  "name": "package-audit-tool",
   "type": "module",
   "version": "1.0.0",
   "description": "CLI tool to audit your npm dependencies for security, size, and maintenance health",
@@ -10,6 +10,7 @@
     "build": "tsup",
     "start": "ts-node src/index.ts"
   },
+  "files": ["dist"],
   "keywords": [
     "npm",
     "audit",
@@ -17,7 +18,7 @@
     "dependency-checker",
     "dev-tool"
   ],
-  "author": "Your Name",
+  "author": "Akshat Soni",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
